@@ -1581,7 +1581,7 @@ void setup() {
 
   delay(300); // give hardware a chance to come up and stabalize
 
-  BlueTooth.begin(38400);
+  BlueTooth.begin(9600);
 
   BlueTooth.println("");
   delay(250);
